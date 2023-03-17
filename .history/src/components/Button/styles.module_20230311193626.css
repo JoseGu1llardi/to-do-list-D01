@@ -1,0 +1,46 @@
+.button {
+  width: 90px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: var(--dark-blue);
+  color: white;
+
+  transition: all;
+}
+
+.button span {
+  width: 34px;
+  height: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: var(--gray-100);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button img {
+  width: 16px;
+  height: 16px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button:hover {
+  background: var(--blue);
+}

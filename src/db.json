@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "id": "a559ef2f-5c91-4051-ac5d-16d052d726fe",
+      "content": "Learn React JS in depth",
+      "status": true
+    },
+    {
+      "id": "2184ae3f-9887-4de1-89af-0a618f75c9ac",
+      "content": "Find a new job",
+      "status": false
+    }
+  ]
+}

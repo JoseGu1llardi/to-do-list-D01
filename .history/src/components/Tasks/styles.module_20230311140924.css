@@ -1,0 +1,16 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 561px;
+
+  width: 736px;
+  height: 19px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}

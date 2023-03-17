@@ -1,0 +1,72 @@
+.task {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+  gap: 12px;
+
+  width: 736px;
+  height: 72px;
+
+  /* Gray 500 */
+
+  background: #262626;
+  /* Gray 400 */
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.task input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 24px;
+  height: 24px;
+
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  outline: none;
+
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.task input[type="checkbox"]:checked {
+  width: 24px;
+  height: 24px;
+
+  transition-duration: all 1s ease;
+
+  border: none;
+  background-image: url("./../../assets/Layer 1.svg");
+}
+
+.task svg {
+  display: flex;
+  float: right;
+  width: 24px;
+  height: 24px;
+
+  border-radius: 4px;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

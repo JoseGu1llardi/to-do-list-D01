@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  height: 12.5rem;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--gray-700);
+}
+
+.container img {
+  position: absolute;
+  width: 7.875rem;
+  height: 3rem;
+}

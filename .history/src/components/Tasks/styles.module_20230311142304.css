@@ -1,0 +1,52 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 561px;
+
+  width: 736px;
+  height: 19px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.created {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 139px;
+  height: 19px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  width: 25px;
+  height: 19px;
+
+  background: #333333;
+  border-radius: 999px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

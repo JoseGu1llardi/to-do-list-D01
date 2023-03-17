@@ -1,0 +1,7 @@
+.button {
+  width: 90px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+}

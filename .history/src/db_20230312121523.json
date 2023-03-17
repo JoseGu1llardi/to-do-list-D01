@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    { "id": 1, "content": "Learn Javascrit in depth", "status": false },
+    { "id": 2, "content": "Improve my English every day", "status": false },
+    {
+      "id": 3,
+      "content": "Enter the programming job market this year yet",
+      "status": false
+    },
+    {
+      "id": 4,
+      "content": "Decide wheter to return to Brazil or stay here in Europe.",
+      "status": false
+    }
+  ]
+}

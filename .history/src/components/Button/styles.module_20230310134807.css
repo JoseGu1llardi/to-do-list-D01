@@ -1,0 +1,16 @@
+.button {
+  width: 90px;
+  height: 52px;
+  padding: 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 8px;
+
+  background: var(--dark-blue);
+  color: white;
+}

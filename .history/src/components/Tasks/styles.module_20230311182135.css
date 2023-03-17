@@ -1,0 +1,103 @@
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 561px;
+
+  width: 736px;
+  height: 19px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.created {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 139px;
+  height: 19px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.created span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: var(--blue);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  width: 25px;
+  height: 19px;
+
+  background: #333333;
+  border-radius: 999px;
+}
+
+.counter p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: var(--gray-200);
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.done {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 111px;
+  height: 19px;
+  right: -200;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.done span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #8284fa;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

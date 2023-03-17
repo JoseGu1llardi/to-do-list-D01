@@ -1,0 +1,31 @@
+.input {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+
+  width: 638px;
+  height: 54px;
+
+  background: var(--gray-500);
+  color: #fff;
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.input:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--dark-purple);
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+}

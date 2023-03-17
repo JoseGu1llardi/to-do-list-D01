@@ -1,0 +1,13 @@
+.newTaskContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 736px;
+  height: 54px;
+  left: calc(50% - 736px / 2);
+  top: 173px;
+}
